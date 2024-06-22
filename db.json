@@ -1,0 +1,210 @@
+{
+  "notes": [
+    {
+      "0": {
+        "id": "1",
+        "content": "HTML is easy",
+        "important": true
+      },
+      "1": {
+        "id": "2",
+        "content": "Browser can only execute Javascript",
+        "important": true
+      },
+      "2": {
+        "id": "3",
+        "content": "GET and POST are the most important methods of HTTP protocol",
+        "important": false
+      },
+      "3": {
+        "id": "QaLb_sdPDscsqeT5ZcoQL",
+        "content": "Ramadan Mubarak",
+        "important": false
+      },
+      "4": {
+        "id": "NqUFhPkLKvyBJ6dy2U5ps",
+        "content": "Today is Tuesday. So I'm learning React Js",
+        "important": true
+      },
+      "5": {
+        "id": "cWELk7LXVlCOiv7qQ3wfH",
+        "content": "It's really amazing in here",
+        "important": true
+      },
+      "6": {
+        "id": "WGntomJhsJTs5vsZBTBpY",
+        "content": "Async Logic with Redux-Toolkit is super helpful",
+        "important": false
+      },
+      "7": {
+        "id": "XuY1jM7X_1DPYxRA6c9AK",
+        "content": "Now, it's time to go on a ride with RTK Query",
+        "important": false
+      },
+      "id": "1",
+      "important": true
+    },
+    {
+      "id": "2",
+      "content": "Browser can only execute Javascript",
+      "important": true
+    },
+    {
+      "id": "3",
+      "content": "GET and POST are the most important methods of HTTP protocol",
+      "important": false
+    },
+    {
+      "id": "QaLb_sdPDscsqeT5ZcoQL",
+      "content": "Ramadan Mubarak",
+      "important": false
+    },
+    {
+      "id": "NqUFhPkLKvyBJ6dy2U5ps",
+      "content": "Today is Tuesday. So I'm learning React Js",
+      "important": true
+    },
+    {
+      "id": "cWELk7LXVlCOiv7qQ3wfH",
+      "content": "It's really amazing in here",
+      "important": true
+    },
+    {
+      "id": "WGntomJhsJTs5vsZBTBpY",
+      "content": "Async Logic with Redux-Toolkit is super helpful",
+      "important": false
+    },
+    {
+      "id": "XuY1jM7X_1DPYxRA6c9AK",
+      "content": "Now, it's time to go on a ride with RTK Query",
+      "important": false
+    },
+    {
+      "id": "qOA9ceT6mMGlNu5XpNaR5",
+      "content": "TailwindCSS is a fantastic UI styling library",
+      "important": false
+    }
+  ],
+  "newNotes": [
+    {
+      "id": "BgcKD-7yB158rQK3JPnRJ",
+      "persons": "Aminah",
+      "gender": "female"
+    },
+    {
+      "id": "1bV94_XChW_gG2U8r8BJ2",
+      "persons": "Toyyib",
+      "gender": "male"
+    }
+  ],
+  "persons": [
+    {
+      "id": "1udh0WU_WZQwjdfQRB12-",
+      "name": "Adewale Mujeeb",
+      "numbers": "080-628-541-82"
+    },
+    {
+      "id": "NWAhh16FF2rG3kna7d3RR",
+      "name": "Toyeeb Abdul-Jeleel",
+      "numbers": "080-628-541-82"
+    },
+    {
+      "id": "27IJ67fOBiGDOc30msGdO",
+      "name": "Abiodun Adekunle",
+      "numbers": "080-534-765-1"
+    }
+  ],
+  "course": [
+    {
+      "id": "1",
+      "name": "full stack application development",
+      "parts": [
+        {
+          "name": "Fundamentals of React",
+          "exercises": 10,
+          "id": 1
+        },
+        {
+          "name": "Using props to pass data",
+          "exercises": 7,
+          "id": 2
+        },
+        {
+          "name": "State of a component",
+          "exercises": 14,
+          "id": 3
+        },
+        {
+          "name": "Redux",
+          "exercises": 11,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Node Js",
+      "parts": [
+        {
+          "name": "Routing",
+          "exercises": 3,
+          "id": 1
+        },
+        {
+          "name": "Middlewares",
+          "exercises": 7,
+          "id": 2
+        },
+        {
+          "name": "React Query",
+          "exercises": 14,
+          "id": 3
+        },
+        {
+          "name": "Hooks",
+          "exercises": 19,
+          "id": 4
+        }
+      ]
+    }
+  ],
+  "todos": [
+    {
+      "id": "5df7",
+      "title": "Attending meeting at 3PM today"
+    },
+    {
+      "id": "5c36",
+      "title": "Cycling round the city of Iwo, Osun State"
+    },
+    {
+      "id": "eb47",
+      "title": "Jugging everyday to school"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "user": "Today's Saturday. It's a great day for you."
+    },
+    {
+      "id": "2",
+      "user": "Finished learning NextJs using Dave Gray YouTube channel."
+    },
+    {
+      "id": "3",
+      "user": "Procrastination is really a bad habit, most especially for developers."
+    }
+  ],
+  "movies": [],
+  "books": [
+    {
+      "id": "1",
+      "title": "CrownStar Expression"
+    },
+    {
+      "id": "2",
+      "title": "Things Fall Apart"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --azure: #f0ffff
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--azure);
+}
+
+.founders {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: rgb(71 85 105);
+}
+.identity {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: rgb(71 85 105);
+}
+.nav-layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.nav-layout img {
+  width: 5rem;
+  height: 3.5rem; 
+  object-fit: contain;
+  margin-top: -0.7rem;
+}
+.nav-layout nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+}
+.nav-layout nav ul li a {
+  margin-right: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-layout nav ul li a:hover {
+  border-radius: 0.3rem;
+  border: 2px solid burlywood;
+  color: black;
+  padding: .2rem;
+}
+
+main p {
+  font-size: 40px;
+  width: 500px;
+  margin: 200px auto;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sub-nav {
+  background-color: rgb(71 85 105);
+  padding: 0.3rem;
+  border-radius: 0.73rem;
+  line-height: 2.5 ;
+  color: white;
+  margin-left: 0.1rem;
+}
+.addContent-btn {
+  font-family: monospace;
+  background-color: rgb(71 85 105);
+  padding: 0.4rem;
+  border-radius: 0.73rem;
+  margin-left: 0.1rem;
+  color: white;
+  font-weight: bold;
+  margin-top: 0.2rem;
+}
+.phoneBookLabel {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: monospace;
+}
+.welcome-message {
+  font-size: 3rem;
+  width: 33rem;
+  margin: 13rem auto;   
+}
+.welcome-message .hub {
+  color: burlywood;
+}
+.loginPage {
+  width: 20rem;
+  margin: 7rem auto;
+}
+.loginPage form {
+  background-color: burlywood;
+  border-radius: 0.5rem;
+  padding: 3rem;
+  line-height: 2.2rem;
+  color: black;
+  box-shadow: 3px 3px 2px 2px gray;
+}
+.loginPage form input {
+  border-radius: 0.35rem;
+  border: none;
+  outline: none;
+  width: 14rem;
+  font-family: monospace;
+  padding-left: 0.5rem;
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+.loginPage form label {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.loginPage form button {
+  position: relative;
+  top: 1rem;
+  left: 4.5rem;
+  background-color: black;
+  color: white;
+  width: 5.5rem;
+  border-radius: 0.3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.loginPage form button:hover {
+  background-color: bisque;
+  color: black;
+}
+.groceries-header {
+  background-color: mediumblue;
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.groceries-content {
+  width: 30rem;
+  margin: 10rem auto;
+  font-size: 2rem;
+}
+.groceries-content:hover {
+  color: blue;
+  font-size: 5rem;
+}
+.groceries-content ul li input {
+  margin-right: 1rem;
+  line-height: 20px;
+}
+#movieName, #movieYear {
+    width: 12rem;
+    margin-bottom: 0.5rem;
+}
+#movieName {
+  margin-top: 0.5rem;
+
+}
+#newNoteForm, #personForm, #formId, #todoForm {
+  margin-top: 1.5rem;
+}
+#movieName label, #movieYear label {
+  color: rgb(71 85 105);
+}
+#personForm label, #todoForm h1 {
+  font-size: 1.3rem;
+}
+.randColors {
+  width: 30%;
+  margin: 100px auto;
+}
+.square {
+  min-height: 250px;
+  padding: 100px;
+  text-align: center;
+  border-radius: 0.25rem;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 5px #000;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 12px;
+}
+.colorForm .formInput input {
+  width: 100%;
+  min-height: 0.4rem;
+  outline: none;
+  padding: 0.35rem;
+  border-radius: 0.25rem;
+  box-shadow: 2px 2px 5px #000;
+}
+.colorForm .formInput input[type="text"] {
+  font-size: 1.4rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+.colorForm .formBtn {
+  width: 100%;
+  min-height: 0.3rem;
+  padding: 0.35rem;
+  border-radius: 0.25rem;
+  box-shadow: 2px 2px 5px #000;
+  margin-top: 15px;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
